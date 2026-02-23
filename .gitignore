@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual Environment
+.env
+.venv/
+venv/
+env/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project data (generated at runtime)
+data/knowledge_base.md
+data/*.db
+logs/
+history/
+
+# Secrets
+service_account.json
+
+# Agent / AI tools
+.agent/
+GEMINI.md
+
+# OS
+Thumbs.db
+.DS_Store

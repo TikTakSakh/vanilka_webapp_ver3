@@ -1,0 +1,20 @@
+services:
+  bot:
+    build: .
+    container_name: vanilka-bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./service_account.json:/app/service_account.json:ro
+      - bot-data:/app/data
+      - ./logs:/app/logs
+      - ./history:/app/history
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+volumes:
+  bot-data:

@@ -1,0 +1,1 @@
+Use ./venv/bin/python for Python commands

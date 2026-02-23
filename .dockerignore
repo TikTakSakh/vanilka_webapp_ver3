@@ -1,0 +1,25 @@
+.git
+.gitignore
+.venv
+.env
+.env.example
+.agent
+__pycache__
+*.pyc
+
+# Dev / docs
+README.md
+DEPLOY.md
+GEMINI.md
+prd.md
+*.bat
+
+# Runtime data (mounted as volumes)
+logs/
+history/
+data/vanilka.db
+service_account.json
+
+# OS
+Thumbs.db
+.DS_Store

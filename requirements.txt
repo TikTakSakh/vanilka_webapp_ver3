@@ -1,0 +1,11 @@
+aiogram>=3.0
+openai>=1.0
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+python-dotenv
+aiohttp
+beartype
+python-docx
+aiosqlite
+openai-whisper
