@@ -70,7 +70,7 @@ OPENAI_API_KEY=sk-or-v1-...
 OPENAI_BASE_URL=https://openrouter.ai/api/v1
 GOOGLE_DRIVE_FILE_ID=1eZ7M_wkqiBW8fb2yCFfT3eg9yxWIud8b
 GOOGLE_SERVICE_ACCOUNT_JSON=./service_account.json
-MINI_APP_URL=https://TikTakSakh.github.io/web_app/
+MINI_APP_URL=https://TikTakSakh.github.io/vanilka_webapp_ver3/
 ADMIN_USER_IDS=771134745
 WHISPER_MODEL=small
 ```
